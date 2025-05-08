@@ -1,0 +1,29 @@
+echo "<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset=\"UTF-8\">
+    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">
+    <title>Hello Firebase</title>
+    <!-- Firebase SDKs を読み込む（必要なものを後で追加）-->
+    <script defer src=\"https://www.gstatic.com/firebasejs/9.6.1/firebase-app.js\"></script>
+    <script defer src=\"https://www.gstatic.com/firebasejs/9.6.1/firebase-analytics.js\"></script>
+    <script defer>
+      // Firebase 設定（自分のプロジェクトに合わせて書き換え）
+const firebaseConfig = {
+  apiKey: "AIzaSyBIRDNeHACRrxFcL7JzORtgegfwRcvQy3w",
+  authDomain: "digicon-oi.firebaseapp.com",
+  projectId: "digicon-oi",
+  storageBucket: "digicon-oi.firebasestorage.app",
+  messagingSenderId: "146582220194",
+  appId: "1:146582220194:web:a9c79927d15c26409dd6fb",
+  measurementId: "G-JQKJNPT2N1"
+};
+      // Firebase 初期化
+      const app = firebase.initializeApp(firebaseConfig);
+      const analytics = firebase.getAnalytics(app);
+    </script>
+  </head>
+  <body>
+    <h1>hello!digcon!</h1>
+  </body>
+</html>" > index.html
