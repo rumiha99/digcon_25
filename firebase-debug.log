@@ -1,0 +1,52 @@
+[debug] [2025-05-08T02:47:21.314Z] ----------------------------------------------------------------------
+[debug] [2025-05-08T02:47:21.324Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\cs21034\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2025-05-08T02:47:21.325Z] CLI Version:   14.3.0
+[debug] [2025-05-08T02:47:21.325Z] Platform:      win32
+[debug] [2025-05-08T02:47:21.326Z] Node Version:  v22.15.0
+[debug] [2025-05-08T02:47:21.327Z] Time:          Thu May 08 2025 11:47:21 GMT+0900 (日本標準時)
+[debug] [2025-05-08T02:47:21.328Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-05-08T02:47:22.133Z] Object "/emulators/ui" in "firebase.json" has unknown property: {"additionalProperty":"enalbed"}
+[debug] [2025-05-08T02:47:22.151Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-05-08T02:47:22.152Z] > authorizing via signed-in user (keshikawa.takahide.21@gmail.com)
+[debug] [2025-05-08T02:47:22.152Z] [iam] checking project keshikawatest-94e47 for permissions ["firebase.projects.get"]
+[debug] [2025-05-08T02:47:22.155Z] Checked if tokens are valid: true, expires at: 1746674627194
+[debug] [2025-05-08T02:47:22.155Z] Checked if tokens are valid: true, expires at: 1746674627194
+[debug] [2025-05-08T02:47:22.157Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/keshikawatest-94e47:testIamPermissions [none]
+[debug] [2025-05-08T02:47:22.158Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/keshikawatest-94e47:testIamPermissions x-goog-quota-user=projects/keshikawatest-94e47
+[debug] [2025-05-08T02:47:22.158Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/keshikawatest-94e47:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2025-05-08T02:47:22.973Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/keshikawatest-94e47:testIamPermissions 200
+[debug] [2025-05-08T02:47:22.974Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/keshikawatest-94e47:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2025-05-08T02:47:22.975Z] Checked if tokens are valid: true, expires at: 1746674627194
+[debug] [2025-05-08T02:47:22.975Z] Checked if tokens are valid: true, expires at: 1746674627194
+[debug] [2025-05-08T02:47:22.975Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/keshikawatest-94e47/services/cloudresourcemanager.googleapis.com [none]
+[debug] [2025-05-08T02:47:22.976Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/keshikawatest-94e47/services/cloudresourcemanager.googleapis.com x-goog-quota-user=projects/keshikawatest-94e47
+[debug] [2025-05-08T02:47:24.135Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/keshikawatest-94e47/services/cloudresourcemanager.googleapis.com 200
+[debug] [2025-05-08T02:47:24.136Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/keshikawatest-94e47/services/cloudresourcemanager.googleapis.com [omitted]
+[debug] [2025-05-08T02:47:24.136Z] Checked if tokens are valid: true, expires at: 1746674627194
+[debug] [2025-05-08T02:47:24.136Z] Checked if tokens are valid: true, expires at: 1746674627194
+[debug] [2025-05-08T02:47:24.136Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/projects/keshikawatest-94e47 [none]
+[debug] [2025-05-08T02:47:24.346Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/projects/keshikawatest-94e47 200
+[debug] [2025-05-08T02:47:24.346Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/projects/keshikawatest-94e47 {"projectNumber":"845849214411","projectId":"keshikawatest-94e47","lifecycleState":"ACTIVE","name":"keshikawatest","labels":{"firebase":"enabled","firebase-core":"disabled"},"createTime":"2025-05-08T01:44:34.877202Z"}
+[info] 
+[info] === Serving from 'C:\Users\cs21034\Desktop\デジタルコンテンツGit\digcon_25'...
+[info] 
+[debug] [2025-05-08T02:47:24.354Z] Checked if tokens are valid: true, expires at: 1746674627194
+[debug] [2025-05-08T02:47:24.355Z] Checked if tokens are valid: true, expires at: 1746674627194
+[debug] [2025-05-08T02:47:24.355Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/keshikawatest-94e47/sites 
+[debug] [2025-05-08T02:47:25.238Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/keshikawatest-94e47/sites 200
+[debug] [2025-05-08T02:47:25.238Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/keshikawatest-94e47/sites {"sites":[{"name":"projects/keshikawatest-94e47/sites/keshikawatest-94e47","defaultUrl":"https://keshikawatest-94e47.web.app","appId":"1:845849214411:web:97d481f136671e2e88ca4e","type":"DEFAULT_SITE"}]}
+[debug] [2025-05-08T02:47:25.238Z] Checked if tokens are valid: true, expires at: 1746674627194
+[debug] [2025-05-08T02:47:25.239Z] Checked if tokens are valid: true, expires at: 1746674627194
+[debug] [2025-05-08T02:47:25.239Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/keshikawatest-94e47/webApps/1:845849214411:web:97d481f136671e2e88ca4e/config [none]
+[debug] [2025-05-08T02:47:26.368Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/keshikawatest-94e47/webApps/1:845849214411:web:97d481f136671e2e88ca4e/config 200
+[debug] [2025-05-08T02:47:26.369Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/keshikawatest-94e47/webApps/1:845849214411:web:97d481f136671e2e88ca4e/config {"projectId":"keshikawatest-94e47","appId":"1:845849214411:web:97d481f136671e2e88ca4e","storageBucket":"keshikawatest-94e47.firebasestorage.app","apiKey":"AIzaSyAmymXjQx34DBch73Bk6xRc9Rc5hOUY1H4","authDomain":"keshikawatest-94e47.firebaseapp.com","messagingSenderId":"845849214411","measurementId":"G-MRM9XDMXTN"}
+[debug] [2025-05-08T02:47:26.388Z] Checked if tokens are valid: true, expires at: 1746674627194
+[debug] [2025-05-08T02:47:26.389Z] Checked if tokens are valid: true, expires at: 1746674627194
+[debug] [2025-05-08T02:47:26.389Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/keshikawatest-94e47 [none]
+[debug] [2025-05-08T02:47:26.727Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/keshikawatest-94e47 200
+[debug] [2025-05-08T02:47:26.727Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/keshikawatest-94e47 {"projectId":"keshikawatest-94e47","projectNumber":"845849214411","displayName":"keshikawatest","name":"projects/keshikawatest-94e47","resources":{"hostingSite":"keshikawatest-94e47"},"state":"ACTIVE","etag":"1_1f2ca98f-534e-4b82-9072-371cedd3548f"}
+[info] i  hosting[keshikawatest-94e47]: Serving hosting files from: public {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mpublic\u001b[22m"}}
+[info] +  hosting[keshikawatest-94e47]: Local server: http://localhost:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5000\u001b[22m\u001b[24m"}}
+[info] i  hosting: ::1 - - [08/May/2025:02:47:29 +0000] "GET / HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [08/May/2025:02:47:29 +0000] \"GET / HTTP/1.1\" 200 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0\""}}
+[info] i  hosting: ::1 - - [08/May/2025:02:47:30 +0000] "GET /favicon.ico HTTP/1.1" 200 - "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [08/May/2025:02:47:30 +0000] \"GET /favicon.ico HTTP/1.1\" 200 - \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0\""}}

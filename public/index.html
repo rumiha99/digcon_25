@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hello Firebase</title>
+
+  <!-- Firebase SDK（v9以降の互換版をCDNで読み込み） -->
+  <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-analytics-compat.js"></script>
+
+  <style>
+    body {
+      background: linear-gradient(135deg, #667eea, #764ba2);
+      font-family: 'Segoe UI', sans-serif;
+      color: white;
+      text-align: center;
+      padding-top: 20vh;
+    }
+
+    h1 {
+      font-size: 4rem;
+      animation: fadeIn 2s ease-in-out;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(-20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .subtitle {
+      font-size: 1.5rem;
+      margin-top: 1rem;
+      opacity: 0.8;
+    }
+  </style>
+</head>
+<body>
+  <h1>Hello, Firebase!</h1>
+  <div class="subtitle">Firebase Hostingで動作中</div>
+
+  <!-- Firebase初期化スクリプト -->
+
+    // Firebaseを初期化
+    firebase.initializeApp(firebaseConfig);
+    firebase.analytics();
+  </script>
+</body>
+</html>
